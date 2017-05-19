@@ -1,6 +1,6 @@
 {
   "name": "elude",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Elude values from a collection with a powerfull include / exclude config.",
   "keywords": [
     "include",
