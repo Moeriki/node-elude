@@ -15,7 +15,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint *.js test/",
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "matchr": "^1.1.1"
