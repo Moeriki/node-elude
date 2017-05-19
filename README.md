@@ -55,12 +55,13 @@ Elude uses [matchr](https://github.com/Moeriki/node-matchr) for its powerfull va
 
 ### API
 
-> elude( collection`:Array<\*>` [, options`:object` ])
+> elude( collection [, options]) `:Array<*>`
 
+* collection: `Array<*>`
 * options.include: `* | Array<*>`
 * options.exclude: `* | Array<*>`
 
-> elude.one( value`:\*` [, options`:object` ])
+> elude.one( value [, options]) `:boolean`
 
 * options.include: `* | Array<*>`
 * options.exclude: `* | Array<*>`
