@@ -1,0 +1,8 @@
+coverage/
+.editorconfig
+.eslintrc.js
+.gitignore
+.npmignore
+.travis.yml
+*.spec.js
+yarn.lock

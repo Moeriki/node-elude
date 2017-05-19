@@ -1,0 +1,35 @@
+{
+  "name": "elude",
+  "version": "1.0.0",
+  "description": "Elude values from a collection with a powerfull include / exclude config.",
+  "keywords": [
+    "include",
+    "exclude",
+    "filter"
+  ],
+  "author": "Dieter Luypaert <dieterluypaert@icloud.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js test/",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash.ismatch": "^4.4.0",
+    "lodash.isplainobject": "^4.0.6",
+    "lodash.pickby": "^4.6.0",
+    "matchr": "^1.1.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "eslint": "^3.19.0",
+    "eslint-config-muriki": "^8.5.4",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jasmine": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "jest": "^20.0.3"
+  }
+}
